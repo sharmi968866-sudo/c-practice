@@ -48,8 +48,8 @@ void main()
     int num;
     printf("Enter the number:");
     scanf("%d",&num);
-    printf("The area of Square %d=%d\n",num,num*num);
-    printf("The Perimeter of Square %d=%d\n",num,4*num);
+    printf("Area %d=%d\n",num,&num*num);
+    printf("Circumference %d=%d\n",num,2*22/7*num);
 }
 // AREA AND SPHERE
 #include<stdio.h>
