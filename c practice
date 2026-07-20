@@ -1,0 +1,63 @@
+//Add and subtract
+#include<stdio.h>
+void main()
+{
+    int num1,num2;
+    printf("Enter the two numbers:");
+    scanf("%d%d",&num1,&num2);
+    printf("Added=%d\n",num1+num2);
+    printf("Subtract=%d",num1-num2);
+}
+// DIVIDE AND MULTIPLE
+
+#include<stdio.h>
+void main()
+{
+    int num1,num2;
+    printf("Enter two numbers:");
+    scanf("%d %d",&num1,&num2);
+    printf("%d/%d=%d\n",num1,num2,num1/num2);
+    printf("%d*%d=%d\n",num1,num2,num1*num2);
+}
+
+//SQUARE AND CUBE
+
+#include<stdio.h>
+void main()
+{
+    int num;
+    printf("enter the number:");
+    scanf("%d",&num);
+    printf("Square of number%d=%d\n",num,num*num);
+    printf("cube of number%d=%d\n",num,num*num*num);
+}
+// ARE AND PERIMETER OF SQUARE
+#include<stdio.h>
+void main()
+{
+    int num;
+    printf("Enter the number:");
+    scanf("%d",&num);
+    printf("The area of Square %d=%d\n",num,num*num);
+    printf("The Perimeter of Square %d=%d\n",num,4*num);
+}
+// AREA AND CIRCUMFERENCE
+#include<stdio.h>
+void main()
+{
+    int num;
+    printf("Enter the number:");
+    scanf("%d",&num);
+    printf("The area of Square %d=%d\n",num,num*num);
+    printf("The Perimeter of Square %d=%d\n",num,4*num);
+}
+// AREA AND SPHERE
+#include<stdio.h>
+void main()
+{
+    int num;
+    printf("Enter the number:");
+    scanf("%d",&num);
+    printf("area %d=%d\n",num,num*num);
+    printf("Sphere %d=%d\n",num,4*22/7*num*num);
+}
