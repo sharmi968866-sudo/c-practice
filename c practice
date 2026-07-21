@@ -1,3 +1,4 @@
+
 //Add and subtract
 #include<stdio.h>
 void main()
@@ -60,4 +61,23 @@ void main()
     scanf("%d",&num);
     printf("area %d=%d\n",num,num*num);
     printf("Sphere %d=%d\n",num,4*22/7*num*num);
+}
+
+
+//A milk vendor buys milk at the rate of 3.25/- the then adds a liter 
+of water for every 4 liters of milk and sells the water milk at the rate 
+of 4.15/1t. calculate the gain for milk vendor?
+
+
+#include<stdio.h>
+void main(){
+    float cp_price=3.25;
+    float sp_price=4.15;
+    float milk =4;
+    float mixture=5;
+    float cost_price=milk*cp_price;
+    float selling_price=mixture*sp_price;
+    float Gain;
+    printf("Gain=%.2f\n",selling_price-cost_price);
+   
 }
